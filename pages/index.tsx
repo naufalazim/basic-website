@@ -4,6 +4,7 @@ import Image from 'next/image'
 import goku from '../public/goku.png'
 import { Icon } from '@iconify/react';
 
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -35,8 +36,6 @@ export default function Home() {
           </div>
         </div>
       </header>
-
-
       {/* Header End  */}
 
 
@@ -48,7 +47,7 @@ export default function Home() {
           <div className='flex flex-wrap'>
 
             <div className='w-full self-center px-4 lg:w-1/2'>
-              <h1 className='text-based font-bold md:text-xl lg:text-2xl'>Hello there 👋🏻, I'm <span className='block text-sky-700 text-4xl mt-1 lg:text-5xl'>Naufal Azim</span></h1>
+              <h1 className='text-based font-bold md:text-xl lg:text-2xl'>Hello there 👋🏻, I'm <span className='block text-transparent bg-clip-text bg-gradient-to-r to-emerald-500 from-sky-600 text-4xl mt-1 lg:text-5xl'>Naufal Azim</span></h1>
                 <h2 className='font-medium text-slate-500 text-lg mb-5 lg:text-2xl'> <span className='text-pink-500'>Computer Science</span> Student at <span className=''>UPNM 🇲🇾</span></h2>
                 <p className='font-medium text-slate-500 mb-10 leading-relaxed text\'>
                   I love to build stuff and explore the new technology for fun and to learn new things.
@@ -76,6 +75,80 @@ export default function Home() {
       </section>
       {/* Hero Section End  */}
   
+
+
+
+      {/* About Section Start */}
+        <section id='about'>
+          <div className='mt-10 relative '>
+            <h2 className='text-center text-slate-500 font-regular'>Skills and Interest</h2>
+            <p className='text-center text-slate-900 font-semibold text-2xl'>What I am <span className='text-pink-500'>interest</span> at 💪🏼</p>
+          </div>
+
+          <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 px-20 mb-20 lg:mx-20">
+
+              <div className="flex items-start rounded-xl bg-white p-4 shadow-xl">
+                <div className="flex h-12 w-12 items-center justify-center ">
+                <Icon icon="icon-park:web-page" className='text-3xl' />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+                
+              </div>
+
+              <div className="ml-4">
+                <h2 className="font-semibold lg:text-xl sm:text-2xl md:text-2xl">Web Development 🏗</h2>
+                <p className="mt-2 text-sm text-gray-500 leading-loose">
+                  <span className='font-bold text-slate-900'>Build the best <span className='text-pink-500'>web experiences. </span></span>
+                By using modern web toolkit, I build websites and apps which bring delight whether it is a static landing page or a Software-as-a-Service.</p>
+                <div className='flex flex-wrap space-x-3 lg:text-4xl text-2xl justify-center lg:space-x-7 pt-5'>
+                <ul><Icon icon="logos:spring-icon" /></ul>
+                <ul><Icon icon="logos:nextjs-icon" /></ul>
+                <ul><Icon icon="logos:tailwindcss-icon" /></ul>
+                <ul><Icon icon="logos:react" /></ul>
+                
+              </div>
+            </div>
+             
+            </div>
+           
+
+          {/* Each Card Start  */}
+          
+            <div className="flex items-start rounded-xl bg-white p-4 shadow-xl">
+                <div className="flex h-12 w-12 items-center justify-center ">
+                <Icon icon="vscode-icons:file-type-binary" className='text-3xl' />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+                 </div>
+
+              <div className="ml-4">
+                <h2 className="font-semibold lg:text-xl sm:text-2xl md:text-2xl">Programming 👾</h2>
+                <p className="mt-2 text-sm text-gray-500 leading-loose">
+                  <span className='font-bold text-slate-900'>Code to <span className='text-pink-500'>expressing my idea. </span></span>
+               I can sharpen my mind, rewire my brain and provide solution for my daily problems. I love to work on exciting projects and want to be part of passionate community.</p>
+
+                <div className='flex flex-wrap space-x-3 lg:text-4xl text-2xl justify-center lg:space-x-7 pt-2'>
+                    <ul><Icon icon="logos:java" /></ul>
+                    <ul><Icon icon="logos:javascript" /></ul>
+                    <ul><Icon icon="file-icons:c" /></ul>
+                    <ul><Icon icon="logos:python" /></ul>
+                </div>
+            </div>
+          </div>
+
+        {/* Each Card End  */}
+        
+
+          {/* Column card  */}
+         </div> 
+
+
+        
+
+
+        </section>
+
+
+
+      {/* About Section End  */}
 
 
 
