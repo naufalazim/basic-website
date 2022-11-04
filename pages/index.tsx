@@ -135,23 +135,97 @@ export default function Home() {
           </div>
 
         {/* Each Card End  */}
-        
+
+
+        {/* Each Card Start  */}
+          
+                 <div className="flex items-start rounded-xl bg-white p-4 shadow-xl">
+                <div className="flex h-12 w-12 items-center justify-center ">
+                <Icon icon="openmoji:hacker-cat" className='text-5xl' />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+                 </div>
+
+              <div className="ml-4">
+                <h2 className="font-semibold lg:text-xl sm:text-2xl md:text-2xl">Ethical Hacking 🥷🏻</h2>
+                <p className="mt-2 text-sm text-gray-500 leading-loose">
+                  <span className='font-bold text-slate-900'>Hacking is similar<span className='text-pink-500'> to being detective. </span></span>
+                  There is actually no absolute way of hacking because every situation differs from each other. Expressing my creativity to achieve the goal.
+                </p>
+
+                <div className='flex flex-wrap space-x-3 lg:text-4xl text-2xl justify-center lg:space-x-7 pt-2'>
+                    <ul><Icon icon="simple-icons:kalilinux" /></ul>
+                    <ul><Icon icon="file-icons:nmap" /></ul>
+                    <ul><Icon icon="simple-icons:wireshark" /></ul>
+                    <ul><Icon icon="akar-icons:python-fill" /></ul>
+                </div>
+            </div>
+          </div>
+
+        {/* Each Card End  */}
+
+           {/* Each Card Start  */}
+          
+           <div className="flex items-start rounded-xl bg-white p-4 shadow-xl">
+                <div className="flex h-12 w-12 items-center justify-center ">
+                <Icon icon="emojione:hotel" className='text-4xl' />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+                 </div>
+
+              <div className="ml-4">
+                <h2 className="font-semibold lg:text-xl sm:text-2xl md:text-2xl">Traveler ☕️</h2>
+                <p className="mt-2 text-sm text-gray-500 leading-loose">
+                  <span className='font-bold text-slate-900'>Love to <span className='text-pink-500'> travel and food hunting! </span></span>
+                    I can travel solo or with people to explore the world. I love to know more people and make networking. 
+                </p>
+
+                <div className='flex flex-wrap space-x-3 lg:text-4xl text-2xl justify-center lg:space-x-7 pt-2'>
+                   
+                </div>
+            </div>
+          </div>
+
+        {/* Each Card End  */}
 
           {/* Column card  */}
          </div> 
-
-
-        
-
-
         </section>
-
-
-
       {/* About Section End  */}
 
 
+      {/* Last part START  */}
+      <section>
+            <div className='mt-10 relative '>
+            <h2 className='text-center text-blue-900 font-semibold text-2xl'>Naufal in Action</h2>
+          </div>
 
+          <div className='mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 px-20 mb-20 lg:mx-20'>
+              <div>
+              <img src='/1.jpg' alt='Naufal Azim' width="300" height="200" className='max-w-full mx-auto border-4 border-pink-500'></img>
+              </div>
+
+              <div>
+              <img src='/2.jpg' alt='Naufal Azim' width="300" height="200" className='max-w-full mx-auto border-4 border-pink-500'></img>
+              </div>
+
+              <div>
+              <img src='/3.jpg' alt='Naufal Azim' width="300" height="200" className='max-w-full mx-auto border-4 border-pink-500'></img>
+              </div>
+
+              <div>
+              <img src='/5.jpg' alt='Naufal Azim' width="300" height="200" className='max-w-full mx-auto border-4 border-pink-500'></img>
+              </div>
+          </div>
+      </section>
+      {/* Last part END  */}
+
+
+      {/* Footer Section  */}
+        <footer>
+          <div className='text-center text-slate-500 text-sm font-light py-10'>
+            <p>Build with 💝 by <a className='text-blue-400' href=''>Naufal Azim.</a></p>
+          </div>
+        </footer>
+      {/* Footer Section  */}
 
 
 
