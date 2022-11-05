@@ -59,9 +59,9 @@ export default function Home() {
             </div>
 
             <div className='w-full self-end px-4 lg:w-1/2'>
-              <div className=' relative mt-10 lg:mt-9 lg:right-0'>
+              <div className=' relative mt-10 lg:mt-5 lg:right-0'>
                 <img src='/naufal.png' alt='Naufal Azim' width="400" height="400" className='max-w-full mx-auto rounded-full'></img>
-                <span className='absolute bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-125'>
+                <span className='absolute -top-10 -z-10 left-1/2 -translate-x-1/2  md:scale-125'>
                     <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                     <path fill="#FF0066" d="M34.7,-38.7C47.9,-30.2,63.7,-22.1,67.7,-10.3C71.8,1.6,64.2,17.1,54.8,29.8C45.3,42.5,33.9,52.2,19.8,59.6C5.7,67,-11.2,72.1,-25.3,67.7C-39.4,63.4,-50.7,49.6,-55.8,35C-60.9,20.4,-59.7,5.1,-59.8,-13.3C-59.8,-31.6,-61,-52.9,-51.2,-62C-41.5,-71,-20.7,-67.9,-5,-61.9C10.7,-56,21.5,-47.2,34.7,-38.7Z" 
                     transform="translate(100 100) scale(1.1)"/>
