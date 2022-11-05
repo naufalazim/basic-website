@@ -85,7 +85,7 @@ export default function Home() {
             <p className='text-center text-slate-900 font-semibold text-2xl'>What I am <span className='text-pink-500'>interest</span> at 💪🏼</p>
           </div>
 
-          <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 px-20 mb-20 lg:mx-20">
+          <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 px-10 mb-20 lg:mx-10">
 
               <div className="flex items-start rounded-xl bg-white p-4 shadow-xl">
                 <div className="flex h-12 w-12 items-center justify-center ">
@@ -99,7 +99,7 @@ export default function Home() {
                 <p className="mt-2 text-sm text-gray-500 leading-loose">
                   <span className='font-bold text-slate-900'>Build the best <span className='text-pink-500'>web experiences. </span></span>
                 By using modern web toolkit, I build websites and apps which bring delight whether it is a static landing page or a Software-as-a-Service.</p>
-                <div className='flex flex-wrap space-x-3 lg:text-4xl text-2xl justify-center lg:space-x-7 pt-5'>
+                <div className='flex space-x-3 lg:text-4xl text-2xl justify-center lg:space-x-7 md:space-x-2 pt-5'>
                 <ul><Icon icon="logos:spring-icon" /></ul>
                 <ul><Icon icon="logos:nextjs-icon" /></ul>
                 <ul><Icon icon="logos:tailwindcss-icon" /></ul>
@@ -125,7 +125,7 @@ export default function Home() {
                   <span className='font-bold text-slate-900'>Code to <span className='text-pink-500'>expressing my idea. </span></span>
                I can sharpen my mind, rewire my brain and provide solution for my daily problems. I love to work on exciting projects and want to be part of passionate community.</p>
 
-                <div className='flex flex-wrap space-x-3 lg:text-4xl text-2xl justify-center lg:space-x-7 pt-2'>
+                <div className='flex space-x-3 lg:text-4xl text-2xl justify-center lg:space-x-7 pt-2'>
                     <ul><Icon icon="logos:java" /></ul>
                     <ul><Icon icon="logos:javascript" /></ul>
                     <ul><Icon icon="file-icons:c" /></ul>
@@ -152,7 +152,7 @@ export default function Home() {
                   There is actually no absolute way of hacking because every situation differs from each other. Expressing my creativity to achieve the goal.
                 </p>
 
-                <div className='flex flex-wrap space-x-3 lg:text-4xl text-2xl justify-center lg:space-x-7 pt-2'>
+                <div className='flex space-x-3 lg:text-4xl text-2xl justify-center lg:space-x-7 pt-2'>
                     <ul><Icon icon="simple-icons:kalilinux" /></ul>
                     <ul><Icon icon="file-icons:nmap" /></ul>
                     <ul><Icon icon="simple-icons:wireshark" /></ul>
@@ -200,7 +200,7 @@ export default function Home() {
 
           <div className='mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 px-20 mb-20 lg:mx-20'>
               <div>
-              <img src='/1.jpg' alt='Naufal Azim' width="300" height="200" className='max-w-full mx-auto border-4 border-pink-500'></img>
+              <img src='/1.jpg' alt='Naufal Azim' width="500" height="400" className='max-w-full mx-auto border-4 border-pink-500'></img>
               </div>
 
               <div>
@@ -212,7 +212,7 @@ export default function Home() {
               </div>
 
               <div>
-              <img src='/5.jpg' alt='Naufal Azim' width="300" height="200" className='max-w-full mx-auto border-4 border-pink-500'></img>
+              <img src='/5.jpg' alt='Naufal Azim' width="500" height="400" className='max-w-full mx-auto border-4 border-pink-500'></img>
               </div>
           </div>
       </section>
