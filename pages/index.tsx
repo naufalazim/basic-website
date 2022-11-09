@@ -55,7 +55,7 @@ export default function Home() {
                   and programming.</span>
                   <span className='block text-slate-800'>Indie hacker to be! <span className='text-2xl'>🚀</span></span>
                 </p>
-                <button className="rounded-full border-2 border-slate-900 py-2 px-4 hover:shadow-lg hover:bg-black hover:text-white hover:opacity-80 transition duration-300 ease-in-out"><a href='/resume.pdf' download="resume.pdf">My Resume</a></button>
+                <button className="rounded-full border-2 border-slate-900 py-2 px-4 hover:shadow-lg hover:bg-black hover:text-white hover:opacity-80 transition duration-300 ease-in-out"><a href='/resume.pdf'>My Resume</a></button>
             </div>
 
             <div className='w-full self-end px-4 lg:w-1/2'>
