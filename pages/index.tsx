@@ -84,8 +84,8 @@ export default function Home() {
         <section id='about'>
           <div className='mt-10 relative '>
             <h2 className='text-center text-slate-500 font-regular'></h2>
-            <p className='text-center text-slate-900 font-semibold text-2xl'>My 
-            <span className='text-transparent bg-clip-text bg-gradient-to-r to-emerald-500 from-sky-600'> skills</span> at 💪🏼</p>
+            <p className='text-center text-slate-900 font-semibold text-2xl'> 
+            <span className='text-transparent bg-clip-text bg-gradient-to-r to-emerald-500 from-sky-600'>Skills</span> at 💪🏼</p>
           </div>
 
           <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 px-10 mb-20 lg:mx-10">
