@@ -1,8 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Image from 'next/image'
-import goku from '../public/goku.png'
-import { Icon } from '@iconify/react';
+import { Icon } from '@iconify/react'
 
 
 export default function Home() {
@@ -48,12 +46,16 @@ export default function Home() {
 
             <div className='w-full self-center px-4 lg:w-1/2'>
               <h1 className='text-based font-bold md:text-xl lg:text-2xl'>Hello there 👋🏻, I'm <span className='block text-transparent bg-clip-text bg-gradient-to-r to-emerald-500 from-sky-600 text-4xl mt-1 lg:text-5xl'>Naufal Azim</span></h1>
-                <h2 className='font-medium text-slate-500 text-lg mb-5 lg:text-2xl'> <span className='text-pink-500'>Computer Science</span> Student at <span className=''>UPNM 🇲🇾</span></h2>
+                <h2 className='font-medium text-slate-500 text-lg mb-0 lg:text-2xl'> <span className='bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500'>Computer Science</span> Student at</h2>
+                <h2 className='font-medium text-slate-500 text-lg mb-5 mt-0 lg:text-2xl'> 
+                <span className='block text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500 font-bold'>Universiti Pertahanan Nasional Malaysia</span>
+                </h2>
+                
                 <p className='font-medium text-slate-500 mb-10 leading-relaxed text\'>
                   I love to build stuff and explore the new technology for fun and to learn new things.
                   <span className=' text-slate-500'> I've been participating in some hackathons and competitions related to web development
                   and programming.</span>
-                  <span className='block text-slate-800'>Indie hacker to be! <span className='text-2xl'>🚀</span></span>
+                  <span className='block'> <span className=' text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500 font-bold'>Indie hacker to be!</span><span className='text-2xl'> 🚀</span></span>
                 </p>
                 <button className="rounded-full border-2 border-slate-900 py-2 px-4 hover:shadow-lg hover:bg-black hover:text-white hover:opacity-80 transition duration-300 ease-in-out"><a href='/resume.pdf'>My Resume</a></button>
             </div>
@@ -81,8 +83,9 @@ export default function Home() {
       {/* About Section Start */}
         <section id='about'>
           <div className='mt-10 relative '>
-            <h2 className='text-center text-slate-500 font-regular'>Skills and Interest</h2>
-            <p className='text-center text-slate-900 font-semibold text-2xl'>What I am <span className='text-pink-500'>interest</span> at 💪🏼</p>
+            <h2 className='text-center text-slate-500 font-regular'></h2>
+            <p className='text-center text-slate-900 font-semibold text-2xl'>My 
+            <span className='text-transparent bg-clip-text bg-gradient-to-r to-emerald-500 from-sky-600'> skills</span> at 💪🏼</p>
           </div>
 
           <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 px-10 mb-20 lg:mx-10">
@@ -192,10 +195,11 @@ export default function Home() {
       {/* About Section End  */}
 
 
+
       {/* Last part START  */}
       <section>
             <div className='mt-10 relative '>
-            <h2 className='text-center text-blue-900 font-semibold text-2xl'>Naufal in Action</h2>
+            <h2 className='text-center text-blue-900 font-semibold text-2xl'>Naufal in <span className='text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500 font-bold'>Action</span></h2>
           </div>
 
           <div className='mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 px-20 mb-20 lg:mx-20'>
@@ -204,11 +208,11 @@ export default function Home() {
               </div>
 
               <div>
-              <img src='/2.jpg' alt='Naufal Azim' width="300" height="200" className='max-w-full mx-auto border-4 border-pink-500'></img>
+              <img src='/4.jpg' alt='Naufal Azim' width="700" height="600" className='max-w-full mx-auto border-4 border-pink-500'></img>
               </div>
 
               <div>
-              <img src='/3.jpg' alt='Naufal Azim' width="300" height="200" className='max-w-full mx-auto border-4 border-pink-500'></img>
+              <img src='/3.jpg' alt='Naufal Azim' width="600" height="400" className='max-w-full mx-auto border-4 border-pink-500'></img>
               </div>
 
               <div>
@@ -222,7 +226,7 @@ export default function Home() {
       {/* Footer Section  */}
         <footer>
           <div className='text-center text-slate-800 text-sm  py-10 font-regular'>
-            <p>Build with 💝 by <a className='text-blue-700' href=''>Naufal Azim.</a></p>
+            <p>Build with ❤️ by <a className='text-blue-700' href=''><span className='block'>Naufal Azim.</span></a></p>
           </div>
         </footer>
       {/* Footer Section  */}

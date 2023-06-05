@@ -10,6 +10,7 @@
     require("flowbite/plugin")
   ],
   theme: {
+    
     container: {
       center: true,
       padding: '16px',
