@@ -46,10 +46,14 @@ export default function Home() {
 
             <div className='w-full self-center px-4 lg:w-1/2'>
               <h1 className='text-based font-bold md:text-xl lg:text-2xl'>Hello there 👋🏻, I'm <span className='block text-transparent bg-clip-text bg-gradient-to-r to-emerald-500 from-sky-600 text-4xl mt-1 lg:text-5xl'>Naufal Azim</span></h1>
-                <h2 className='font-medium text-slate-500 text-lg mb-0 lg:text-2xl'> <span className='bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500'>Computer Science</span> Student at</h2>
+                <h2 className='font-medium text-slate-500 text-lg mb-0 lg:text-2xl'> <span className='bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 font-bold'>Fresh Graduate</span> 
+                <span className='text-2xl text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500 font-bold'> in Computer Science @ UPNM</span></h2>
                 <h2 className='font-medium text-slate-500 text-lg mb-5 mt-0 lg:text-2xl'> 
-                <span className='block text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500 font-bold'>Universiti Pertahanan Nasional Malaysia</span>
+                {/* <span className='text-lg text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500 font-bold'>UPNM</span> */}
+                <span className='block text-lg text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500 font-bold'>Former Software Engineer Intern @ 
+                <span className='text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-green-600 font-bold'> Petronas</span></span>
                 </h2>
+                
                 
                 <p className='font-medium text-slate-500 mb-10 leading-relaxed text\'>
                   I love to build stuff and explore the new technology for fun and to learn new things.
@@ -57,7 +61,8 @@ export default function Home() {
                   and programming.</span>
                   <span className='block'> <span className=' text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500 font-bold'>Indie hacker to be!</span><span className='text-2xl'> 🚀</span></span>
                 </p>
-                <button className="rounded-full border-2 border-slate-900 py-2 px-4 hover:shadow-lg hover:bg-black hover:text-white hover:opacity-80 transition duration-300 ease-in-out"><a href='/resume.pdf'>My Resume</a></button>
+                <button className="rounded-full border-2 border-pink-800 py-2 px-4 hover:shadow-2xl hover:bg-slate-200 hover:text-white hover:opacity-80 transition duration-300 ease-in-out"><a href='/resume.pdf'>
+                  <span className='text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-purple-600 font-bold'>My Resume</span></a></button>
             </div>
 
             <div className='w-full self-end px-4 lg:w-1/2'>
