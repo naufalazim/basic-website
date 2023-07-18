@@ -46,11 +46,12 @@ export default function Home() {
 
             <div className='w-full self-center px-4 lg:w-1/2'>
               <h1 className='text-based font-bold md:text-xl lg:text-2xl'>Hello there 👋🏻, I'm <span className='block text-transparent bg-clip-text bg-gradient-to-r to-emerald-500 from-sky-600 text-4xl mt-1 lg:text-5xl'>Naufal Azim</span></h1>
-                <h2 className='font-medium text-slate-500 text-lg mb-0 lg:text-2xl'> <span className='bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 font-bold'>Fresh Graduate</span> 
-                <span className='text-2xl text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500 font-bold'> in Computer Science @ UPNM</span></h2>
+                <h2 className='font-medium text-slate-500 text-lg mb-0 lg:text-2xl'> <span className='bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 font-bold'>Fresh graduate UPNM</span> 
+                {/* <span className='text-2xl text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500 font-bold'></span> */}
+                </h2>
                 <h2 className='font-medium text-slate-500 text-lg mb-5 mt-0 lg:text-2xl'> 
                 {/* <span className='text-lg text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500 font-bold'>UPNM</span> */}
-                <span className='block text-lg text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500 font-bold'>Former Software Engineer Intern @ 
+                <span className='block text-sm text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500 font-bold'>Former Software Engineer Intern @ 
                 <span className='text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-green-600 font-bold'> Petronas</span></span>
                 </h2>
                 
