@@ -1,19 +1,49 @@
+
+
 /**
  * @type {import('@types/tailwindcss/tailwind-config').TailwindConfig}
  */
  module.exports = {
   content: [
-    "./pages/**/*.{ts,tsx}",
-    "./public/**/*.html",
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
-  plugins: [
-    require("flowbite/plugin")
-  ],
+  
   theme: {
-    
-    container: {
-      center: true,
-      padding: '16px',
+    maxWidth: {
+      container: "1440px",
+      contentContainer: "1140px",
+      containerSmall: "1024px",
+      containerxs: "768px",
+    },
+    extend: {
+      screens: {
+        xs: "320px",
+        sm: "375px",
+        sml: "500px",
+        md: "667px",
+        mdl: "768px",
+        lg: "960px",
+        lgl: "1024px",
+        xl: "1280px",
+      },
+      fontFamily: {
+        titleFont: ['Inter', 'sans-serif'],
+        bodyFont: ['Montserrat', 'sans-serif'],
+        displayFont: ['VT323', 'monospace'],
+      },
+      boxShadow: {
+        navbarShadow: "0 10px 30px -10px rgba(2,12,21,0.7)",
+      },
+      colors: {
+        bodyColor: '#0A192F',
+        textGreen: '#64ffda',
+        textLight: '#ccd6f6',
+        textDark : '#8892b0',
+        hoverColor: "rgba(100,255,218,0.1)",
+      },
     },
   },
+    
 };
